@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:url(img13.png);
+	background-size: 1200px 600px; 
+	background-position: center;
+	
+}
+  
+ .search {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+h1 {
+	color: white;
+	margin-bottom: 70px;
+	font-size: 45px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+
+
+.bloodgroup {
+	height: 50px;
+	padding: 10px;
+	border: none;
+	border-radius: 25px;
+	outline: none;
+
+}
+
+.city {
+	height: 50px;
+	padding: 10px;
+	border: none;
+	border-radius: 25px;
+	outline: none;
+}
+
+.search-btn {
+	height: 50px;
+	width: 150px;
+	background: #ffeb3b;
+	border: none;
+	color: #000;
+	border-radius: 25px;
+}
+
+.search-btn:hover{
+	background: #ffc107;
+	cursor: pointer;
+}
+
+.formbox {
+	background: rgba(0,0,0,0.5);
+    padding: 30px;
+}
